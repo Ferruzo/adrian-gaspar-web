@@ -1,0 +1,45 @@
+@import "../helpers/_variables";
+@import "../helpers/_mixins";
+@import "_header";
+@import "_footer";
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.mg-auto {
+    margin: auto;
+}
+
+#acerca {
+    background-color: #fff;
+    color: #000;
+    @include padding-sec;
+    img {
+        width: 100%;
+    }
+}
+
+hr {
+    width: 150px;
+    background-color: $rojo;
+    height: 3px;
+    margin: 15px 0 40px 0;
+}
+
+#habilidades {
+    background-color: $rojo;
+    @include padding-sec;
+    color: #fff;
+    hr {
+        background-color: #fff;
+    }
+}
+
+#miscomposiciones {
+    @include padding-sec;
+    color: #000;
+    .col-lg-4 {
+        margin-top: 40px;
+    }
+}

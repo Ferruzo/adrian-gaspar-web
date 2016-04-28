@@ -1,0 +1,43 @@
+header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/hero-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5% 0;
+    color: #fff;
+    img {
+        height: 60px;
+        width: 60px;
+    }
+    .navbar-default {
+        background-color: rgba(0, 0, 0, 0.0001);
+        border: none;
+    }
+    .navbar-toggle {
+        border: none;
+    }
+    .icon-bar {
+        background-color: #fff !important;
+    }
+    li {
+        a {
+            color: #fff !important;
+             -webkit-transition: .2s all;
+        }
+        a:hover {
+            background: $rojo !important;
+             -webkit-transition: .3s all;
+             border-radius: 5px;
+             padding: 10px 15px;
+        }
+    }
+    h1 {
+        font-size: 5.8rem;
+        margin-top: 16%;
+        font-family: 'Indie Flower', cursive;
+        font-weight: bold;
+    }
+    h2 {
+        margin-bottom: 16%;
+    }
+}

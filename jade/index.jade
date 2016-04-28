@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+html(lang="es")
+include _mixins.jade
+head
+    meta(charset="UTF-8")
+    meta(name="keywords", content="music, Adrian Gaspar, covers")
+    meta(name="description", content="Página personal del músico Adrian Gaspar")
+    meta(name="author", content="Kiara Esquerra Ferruzo")
+    link(href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700,800' rel='stylesheet' type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css')
+    link(rel="stylesheet", href="css/bootstrap.min.css")
+    link(rel="stylesheet", href="font-awesome/css/font-awesome.min.css")
+    link(rel="stylesheet", href="css/ihover.min.css")
+    link(rel="stylesheet", href="css/main.css")
+    link(rel="icon", href="images/icon.png")
+    title Adrian Gaspar
+body
+    include _header.jade
+    #acerca
+        .container
+            .row
+                + h2 ("Acerca de mí")
+                .col-lg-6.col-md-6
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                .col-lg-6.col-md-6
+                    img(src="images/profile.jpg", alt="Adrian Gaspar")
+    #habilidades
+        .container
+            .row
+                + h2 ("Habilidades")
+                + habilidades-circles ("images/profile.jpg", "asda", "asdsa", "asdsa")
+                + habilidades-circles ("images/profile.jpg", "asda", "asdsa", "asdsa")
+                + habilidades-circles ("images/profile.jpg", "asda", "asdsa", "asdsa")
+                + habilidades-circles ("images/profile.jpg", "asda", "asdsa", "asdsa")
+    #miscomposiciones
+        .container
+            .row
+                + h2 ("Mis composiciones")
+                p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                +canciones ("asdas", "adsadsa", "#")
+                +canciones ("asdas", "adsadsa", "#")
+                +canciones ("asdas", "adsadsa", "#")
+    footer
+        .container
+            .row
+                + h2 ("Contáctame")
+                .col-lg-8.col-md-8
+                    p ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+                .col-lg-4.col-md-4
+                    .social
+                        .social-box
+                            a(href="#").facebook: i.fa.fa-facebook
+                            p asdsadsa
+                        .social-box    
+                            a(href="#").twitter: i.fa.fa-twitter
+                            p asdsadsa
+                        .social-box    
+                            a(href="#"): i.fa.fa-mobile
+                            p asdas
+                        .social-box    
+                            a(href="#"): i.fa.fa-envelope
+                            p askjdhsakds
+    #legal.text-center
+        .container
+            Copyright (c) 2016 Copyright Holder All Rights Reserved.        
+    script(src="js/jquery.js")
+    script(src="js/bootstrap.min.js")

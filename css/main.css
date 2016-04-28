@@ -1,0 +1,103 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5% 0;
+  color: #fff; }
+  header img {
+    height: 60px;
+    width: 60px; }
+  header .navbar-default {
+    background-color: rgba(0, 0, 0, 0.0001);
+    border: none; }
+  header .navbar-toggle {
+    border: none; }
+  header .icon-bar {
+    background-color: #fff !important; }
+  header li a {
+    color: #fff !important;
+    -webkit-transition: .2s all; }
+  header li a:hover {
+    background: #b41717 !important;
+    -webkit-transition: .3s all;
+    border-radius: 5px;
+    padding: 10px 15px; }
+  header h1 {
+    font-size: 5.8rem;
+    margin-top: 16%;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold; }
+  header h2 {
+    margin-bottom: 16%; }
+
+footer {
+  background-color: #525252;
+  padding: 5% 0;
+  color: #ffF; }
+  footer hr {
+    background-color: #fff; }
+  footer .social {
+    margin: 20px auto; }
+    footer .social .social-box {
+      margin-bottom: 50px; }
+    footer .social a {
+      display: block;
+      background: #b41717;
+      color: #fff;
+      width: 50px;
+      border-radius: 100%;
+      text-align: center;
+      padding: 10px;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      -webkit-transition: .3s all;
+      float: left;
+      margin-right: 15px; }
+    footer .social .facebook:hover {
+      background-color: #3b3e8b;
+      -webkit-transition: .4s all; }
+    footer .social .twitter:hover {
+      background-color: #5ac6de;
+      -webkit-transition: .4s all; }
+    footer .social p {
+      padding-top: 10px; }
+
+#legal {
+  background-color: #8c8c8c;
+  color: #fff;
+  padding: 20px 0; }
+
+body {
+  font-family: 'Merriweather Sans', sans-serif; }
+
+.mg-auto {
+  margin: auto; }
+
+#acerca {
+  background-color: #fff;
+  color: #000;
+  padding: 5% 0; }
+  #acerca img {
+    width: 100%; }
+
+hr {
+  width: 150px;
+  background-color: #b41717;
+  height: 3px;
+  margin: 15px 0 40px 0; }
+
+#habilidades {
+  background-color: #b41717;
+  padding: 5% 0;
+  color: #fff; }
+  #habilidades hr {
+    background-color: #fff; }
+
+#miscomposiciones {
+  padding: 5% 0;
+  color: #000; }
+  #miscomposiciones .col-lg-4 {
+    margin-top: 40px; }
+
+/*# sourceMappingURL=main.css.map */

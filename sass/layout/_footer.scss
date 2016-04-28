@@ -1,0 +1,45 @@
+footer {
+    background-color: $negro;
+    @include padding-sec;
+    color: #ffF;
+    hr {
+        background-color: #fff;
+    }
+    .social {
+        margin: 20px auto;
+        .social-box {
+            margin-bottom: 50px;
+        }
+        a {
+            display: block;
+            background: $rojo;
+            color: #fff;
+            width: 50px;
+            border-radius: 100%;
+            text-align: center;
+            padding: 10px;
+            font-size: 2rem;
+            margin-bottom: 15px;
+            -webkit-transition: .3s all;
+            float: left;
+            margin-right: 15px;
+        }
+        .facebook:hover {
+            background-color: rgb(59, 62, 139);
+            -webkit-transition: .4s all;
+        }
+        .twitter:hover {
+            background-color: rgb(90, 198, 222);
+            -webkit-transition: .4s all;
+        }
+        p {
+            padding-top: 10px;
+        }
+    }
+}
+
+#legal {
+    background-color: rgb(140, 140, 140);
+    color: #fff;
+    padding: 20px 0;
+}
