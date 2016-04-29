@@ -1,5 +1,5 @@
 header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-image.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/hero-image.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -19,7 +19,7 @@ header {
     color: #fff !important;
     -webkit-transition: .2s all; }
   header li a:hover {
-    background: #b41717 !important;
+    background: #670707 !important;
     -webkit-transition: .3s all;
     border-radius: 5px;
     padding: 10px 15px; }
@@ -32,7 +32,7 @@ header {
     margin-bottom: 16%; }
 
 footer {
-  background-color: #525252;
+  background-color: #262626;
   padding: 5% 0;
   color: #ffF; }
   footer hr {
@@ -43,7 +43,7 @@ footer {
       margin-bottom: 50px; }
     footer .social a {
       display: block;
-      background: #b41717;
+      background: #670707;
       color: #fff;
       width: 50px;
       border-radius: 100%;
@@ -64,7 +64,7 @@ footer {
       padding-top: 10px; }
 
 #legal {
-  background-color: #8c8c8c;
+  background-color: #4f4f4f;
   color: #fff;
   padding: 20px 0; }
 
@@ -83,12 +83,12 @@ body {
 
 hr {
   width: 150px;
-  background-color: #b41717;
+  background-color: #670707;
   height: 3px;
   margin: 15px 0 40px 0; }
 
 #habilidades {
-  background-color: #b41717;
+  background-color: #670707;
   padding: 5% 0;
   color: #fff; }
   #habilidades hr {
